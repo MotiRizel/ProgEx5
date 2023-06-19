@@ -147,6 +147,7 @@ struct fat_boot_fsinfo {
 	__le32   reserved2[4];
 };
 
+
 struct msdos_dir_entry {
 	__u8	name[MSDOS_NAME];/* name and extension */
 	__u8	attr;		/* attribute bits */
